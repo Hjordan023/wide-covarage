@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+
+header {
+    margin: 47px 0 178px 42px;
+    color: #17233D;
+}
+
+.link-header {
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.button-singup {
+    margin-left: 32px;
+    background-color: #6FBF44;
+    color: #ffffff;
+    border: none;
+    height: 51px;
+    width: 124px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.img-logo {
+    display: inline-block;
+    margin-right: 121px;
+    width: 596px;
+    height: 500px;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 50px;
+    width: 582px;
+    height: 164px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: .5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    color: #4B505A;
+
+}
+
+.button-learn {
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+}
+@media screen and (max-width:1500px) 
+{
+ 
+    section{
+        margin: 124px 43px 0;
+        margin-top: -83px;
+    }
+    a{
+        display: none;
+    }
+    h1{
+        text-align:center;
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 70px;
+    }
+
+    p{
+        text-align:center;
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        height: 165px;
+        margin-left: 70px;
+        margin-bottom: 23px;
+    }
+    .img-logo{
+        width: 312px;
+        height: 288px;
+        max-width: 90%;
+        position: static;
+        margin-top: 220px;
+    }
+    .button-singup{
+        margin-left: 328px;
+        margin-top: -1px;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .button-learn{
+        margin-left: 167px;
+
+    }
+    header{
+        margin-top: 17px;
+    }
+  
+        
+
+   
+
+    
+}
